@@ -1,0 +1,47 @@
+:root{
+    --cor_fundo: yellow;
+    --cor_titulo:green;
+    --cor-subtitulo:rgb(0, 211, 0);
+    --cor_destaque:rgb(122, 122, 0);
+    --cor_principal: rgb(26, 26, 0);
+    --cor_fontes:white;
+    --fonte_principal: sans-serif;
+}
+h1{
+    color: var(--cor_titulo);
+}
+h2{
+    color: var(--cor-subtitulo);
+}
+body{
+    font-family: var(--fonte_principal);
+    background-color: var(--cor_fundo);
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: var(--cor_destaque);
+    min-height: 150px;
+    padding: 40px;
+}
+
+nav{
+    background-color: var(--cor-subtitulo);
+}
+main{
+    text-align: justify;
+    background-color: var(--cor_principal);
+    color: var(--cor_fontes);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 750px;
+
+}
+main > h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    text-align: center;
+}
