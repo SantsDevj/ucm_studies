@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --border01: 1px solid white;
+    --border02: 1.5px  solid black;
+    --border-radius: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+header{
+    background-color: rgb(32, 32, 32);
+    color: lightgray;
+    padding: 20px;
+}
+header p{
+    background-color: black;
+    width: 100px;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: var(--border01);
+}
+header p:hover {
+    color: black;
+    background-color: lightgray;
+    border: var(--border02);
+    transition: .7s;
+}
+
+/* Configurando o Flexbox no main*/
+
+#main_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* Configurando o section*/
+section.apresentacao {
+    height: 45vh;
+    background-image: url(imgs/imagem_fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
